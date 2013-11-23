@@ -1,1 +1,1 @@
-jQuery(function(){});
+jQuery(function(){label_require()});

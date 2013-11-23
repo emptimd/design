@@ -31,6 +31,12 @@ lightness(@color);  // возвращает канал светлоты (`lightn
 }
 
 
+.clearfix() {
+  zoom: 1;
+  &:before { content: ''; display: block; }
+  &:after { content: ''; display: table; clear: both; }
+}
+
 .rounded-corners (@radius: 5px) {
 	border-radius: @radius;
 	-webkit-border-radius: @radius;

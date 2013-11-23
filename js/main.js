@@ -1,6 +1,6 @@
 jQuery(function($) {
 	
-	// label_require();
+	label_require();
 	/**
 	 * Script for back-to-top button effect
 	 */
